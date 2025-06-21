@@ -46,7 +46,7 @@ def buscar(fila, col, puntos):
         if buscar(nueva_fila, nueva_col, puntos):
             return True
 
-    # No retrocedemos: si se bloquea, termina
+    
     return False
 
 def mostrar(matriz):
